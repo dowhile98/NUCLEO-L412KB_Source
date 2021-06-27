@@ -1,0 +1,142 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000 20000000 
+                       SRAM_START
+                               EQU              0x20000000
+    2 00000000 00018000 
+                       SRAM_SIZE
+                               EQU              (96 * 1024)
+    3 00000000 20018000 
+                       SRAM_END
+                               EQU              ( (SRAM_START) + (SRAM_SIZE) )
+    4 00000000 20018000 
+                       STACK_START
+                               EQU              SRAM_END
+    5 00000000         
+    6 00000000         
+    7 00000000 20018000 
+                       STACK_MSP_START
+                               EQU              STACK_START
+    8 00000000 20017E00 
+                       STACK_MSP_END
+                               EQU              (STACK_MSP_START - 512)
+    9 00000000 20017E00 
+                       STACK_PSP_START
+                               EQU              STACK_MSP_END
+   10 00000000         
+   11 00000000                 AREA             |.txt|,CODE,READONLY
+   12 00000000                 EXPORT           change_sp_to_psp
+   13 00000000                 ALIGN
+   14 00000000         
+   15 00000000         ; this function changes SP to PSP 
+   16 00000000         
+   17 00000000         change_sp_to_psp
+                               PROC
+   18 00000000 4803            LDR              R0,=STACK_MSP_END
+   19 00000002 F380 8809       MSR              PSP, R0
+   20 00000006 F04F 0002       MOV              R0,#0X02
+   21 0000000A F380 8814       MSR              CONTROL,R0
+   22 0000000E 4770            BX               LR
+   23 00000010                 ENDP
+   24 00000010                 END
+              20017E00 
+Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp.sp --apcs=
+interwork --depend=.\objects\change_sp_to_psp.d -o.\objects\change_sp_to_psp.o 
+-I.\RTE\_NUCLEO-F401RE -IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.
+0\CMSIS\Core\Include -IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F4xx_D
+FP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include --predefine="__EVAL SETA 1"
+ --predefine="__UVISION_VERSION SETA 534" --predefine="_RTE_ SETA 1" --predefin
+e="STM32F401xE SETA 1" --predefine="_RTE_ SETA 1" --list=.\listings\change_sp_t
+o_psp.lst change_sp_to_psp.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+.txt 00000000
+
+Symbol: .txt
+   Definitions
+      At line 11 in file change_sp_to_psp.s
+   Uses
+      None
+Comment: .txt unused
+change_sp_to_psp 00000000
+
+Symbol: change_sp_to_psp
+   Definitions
+      At line 17 in file change_sp_to_psp.s
+   Uses
+      At line 12 in file change_sp_to_psp.s
+Comment: change_sp_to_psp used once
+2 symbols
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Absolute symbols
+
+SRAM_END 20018000
+
+Symbol: SRAM_END
+   Definitions
+      At line 3 in file change_sp_to_psp.s
+   Uses
+      At line 4 in file change_sp_to_psp.s
+Comment: SRAM_END used once
+SRAM_SIZE 00018000
+
+Symbol: SRAM_SIZE
+   Definitions
+      At line 2 in file change_sp_to_psp.s
+   Uses
+      At line 3 in file change_sp_to_psp.s
+Comment: SRAM_SIZE used once
+SRAM_START 20000000
+
+Symbol: SRAM_START
+   Definitions
+      At line 1 in file change_sp_to_psp.s
+   Uses
+      At line 3 in file change_sp_to_psp.s
+Comment: SRAM_START used once
+STACK_MSP_END 20017E00
+
+Symbol: STACK_MSP_END
+   Definitions
+      At line 8 in file change_sp_to_psp.s
+   Uses
+      At line 9 in file change_sp_to_psp.s
+      At line 18 in file change_sp_to_psp.s
+
+STACK_MSP_START 20018000
+
+Symbol: STACK_MSP_START
+   Definitions
+      At line 7 in file change_sp_to_psp.s
+   Uses
+      At line 8 in file change_sp_to_psp.s
+Comment: STACK_MSP_START used once
+STACK_PSP_START 20017E00
+
+Symbol: STACK_PSP_START
+   Definitions
+      At line 9 in file change_sp_to_psp.s
+   Uses
+      None
+Comment: STACK_PSP_START unused
+STACK_START 20018000
+
+Symbol: STACK_START
+   Definitions
+      At line 4 in file change_sp_to_psp.s
+   Uses
+      At line 7 in file change_sp_to_psp.s
+Comment: STACK_START used once
+7 symbols
+346 symbols in table
