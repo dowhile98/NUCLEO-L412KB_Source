@@ -5,7 +5,8 @@
 //#define RCC_CFGR	*((volatile uint32_t*)(RCC_BASE + 0x08))	
 
 //int main(void){
-//	//volatile unsigned long *RCC_CR =main (volatile unsigned long *)RCC_BASE;
+//	//volatile unsigned int *RCC_CR =(volatile unsigned int *)RCC_BASE;//esto es una opcion si no se quiere usar defines
+		// *RCC_CR |= 1<<8;				//para modificar el contenido del registro
 //	RCC_CR |= 1U<<8;
 //	while(!(RCC_CR & 1<<10));
 //	RCC_CFGR |= 0x1;
@@ -26,6 +27,7 @@ void PLL_Config(void);
 uint32_t freq;													/*para monitorear la frecuencia del sysclk*/
 /*funcion principal*/
 int main(void){
+	
 	freq = SystemCoreClock;								/*se lee el valor inicial del rcc*/
 	MSI_Config();													/*se configura el msi a 16MHz*/
 	SystemCoreClockUpdate();							/*se actualiza el valor de la variable SystemCoreClock*/
