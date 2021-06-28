@@ -13,21 +13,25 @@
 //	while(1){
 //	}
 //}
+/*includes*/
 #include "stm32l4xx.h"                  // Device header
 
+/********prototipo de funciones***********/
+/*Funciones que configuran los RCC*/
 void MSI_Config(void);
 void HSI16_Config(void);
 void PLL_Config(void);
 
-uint32_t freq;
-
+/*variables globales*/
+uint32_t freq;													/*para monitorear la frecuencia del sysclk*/
+/*funcion principal*/
 int main(void){
-	freq = SystemCoreClock;
-	MSI_Config();
-	SystemCoreClockUpdate();
-	freq = SystemCoreClock;
+	freq = SystemCoreClock;								/*se lee el valor inicial del rcc*/
+	MSI_Config();													/*se configura el msi a 16MHz*/
+	SystemCoreClockUpdate();							/*se actualiza el valor de la variable SystemCoreClock*/
+	freq = SystemCoreClock;								/*se lee el nuevo valor de la frecuencia del sysclk*/
 	
-	PLL_Config();
+	PLL_Config();													/*PLL-> 80MHz*/
 	SystemCoreClockUpdate();
 	freq = SystemCoreClock;
 	while(1){
@@ -35,6 +39,7 @@ int main(void){
 	}
 }
 
+/*DEFINICION DE FUNCIONES*/
 void MSI_Config(void){
 	/*1. Habilitar*/
 	RCC->CR |= RCC_CR_MSION;
