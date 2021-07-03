@@ -16,12 +16,11 @@
 //}
 /*includes*/
 #include "stm32l4xx.h"                  // Device header
-
+#include "RCC.h"
 /********prototipo de funciones***********/
 /*Funciones que configuran los RCC*/
 void MSI_Config(void);
 void HSI16_Config(void);
-void PLL_Config(void);
 
 /*variables globales*/
 uint32_t freq;													/*para monitorear la frecuencia del sysclk*/
@@ -34,6 +33,13 @@ int main(void){
 	freq = SystemCoreClock;								/*se lee el nuevo valor de la frecuencia del sysclk*/
 	
 	PLL_Config();													/*PLL-> 80MHz*/
+	SystemCoreClockUpdate();
+	freq = SystemCoreClock;
+	MSI_ConfigRange(MSI_RANGE9_24MHz);
+	SystemCoreClockUpdate();
+	freq = SystemCoreClock;
+	
+	MSI_ConfigRange(MSI_RANGE11_48MHz);
 	SystemCoreClockUpdate();
 	freq = SystemCoreClock;
 	while(1){
@@ -54,26 +60,14 @@ void MSI_Config(void){
 	RCC->CFGR &=~ RCC_CFGR_SW;
 }
 void HSI16_Config(void){
-	
-	
-}
-/*configurar el pll a 80MHz*/
-void PLL_Config(void){
-	/*1. Deshabilitar el pll (RCC_CR)*/
-	
-	/*2. configurar la fuente de reloj del PLL (RCC_PLLCFGR)*/
-	
-	/*3. configurar los parametros del pll (RCC_PLLCFGR)*/
-	//M
-	//N
-	//R
-	/*4. Habilitar y esperar que el pll este listo (RCC_CR)*/
-	
-	/*5. Habilitar el bit PLLREN (RCC_PLLCFGR)*/
-	
-	/*6. opcional configurar los prescalers HHB, APBx (RCC_CFGR)*/
-	
-	/*7. configurar la latencia de la flash (FLASH_ACR)*/
-	
-	/*8. Seleccionar el reloj habilitado como la fuente del sistema (RCC_CFGR)*/
+	/*cambiar la fuente de reloj*/
+	RCC->CR |= RCC_CR_MSION;
+	while(!(RCC->CR & RCC_CR_MSIRDY));
+	RCC->CFGR &=~ 0x3U;
+	/*encender el hsi16*/
+	RCC->CR |= RCC_CR_HSION;
+	while(!(RCC->CR & RCC_CR_HSIRDY));
+	/*se selecciona la fuente de reloj del sistema*/
+	RCC->CFGR |= RCC_CFGR_SW_HSI;
+	while(!(RCC->CFGR & RCC_CFGR_SWS_HSI));
 }
