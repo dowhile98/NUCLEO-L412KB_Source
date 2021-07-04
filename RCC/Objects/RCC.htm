@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Objects\RCC.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Objects\RCC.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6140002: Last Updated: Sat Jul  3 17:33:49 2021
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6140002: Last Updated: Sat Jul  3 19:02:22 2021
 <BR><P>
 <H3>Maximum Stack Usage =          8 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -527,36 +527,43 @@ Global Symbols
 
 <P><STRONG><a name="[86]"></a>__semihosting_library_function</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, indicate_semi.o(.text), UNUSED)
 
-<P><STRONG><a name="[5a]"></a>MSI_Config</STRONG> (Thumb, 56 bytes, Stack size 0 bytes, main.o(.text.MSI_Config))
+<P><STRONG><a name="[5c]"></a>MSI_Config</STRONG> (Thumb, 56 bytes, Stack size 0 bytes, main.o(.text.MSI_Config))
 <BR><BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[58]"></a>MSI_ConfigRange</STRONG> (Thumb, 150 bytes, Stack size 8 bytes, rcc.o(.text.MSI_ConfigRange))
+<P><STRONG><a name="[58]"></a>MSI_ConfigRange</STRONG> (Thumb, 154 bytes, Stack size 8 bytes, rcc.o(.text.MSI_ConfigRange))
 <BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = MSI_ConfigRange
 </UL>
 <BR>[Calls]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MSI_FlashLatency
+<LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
 </UL>
 <BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[5c]"></a>PLL_Config</STRONG> (Thumb, 194 bytes, Stack size 0 bytes, rcc.o(.text.PLL_Config))
-<BR><BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<P><STRONG><a name="[5b]"></a>PLL_Config</STRONG> (Thumb, 202 bytes, Stack size 8 bytes, rcc.o(.text.PLL_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = PLL_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+</UL>
+<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 </UL>
 
-<P><STRONG><a name="[5b]"></a>SystemCoreClockUpdate</STRONG> (Thumb, 190 bytes, Stack size 0 bytes, system_stm32l4xx.o(.text.SystemCoreClockUpdate))
+<P><STRONG><a name="[5a]"></a>SystemCoreClockUpdate</STRONG> (Thumb, 190 bytes, Stack size 0 bytes, system_stm32l4xx.o(.text.SystemCoreClockUpdate))
 <BR><BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PLL_Config
+<LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MSI_ConfigRange
 </UL>
 
 <P><STRONG><a name="[42]"></a>SystemInit</STRONG> (Thumb, 82 bytes, Stack size 0 bytes, system_stm32l4xx.o(.text.SystemInit))
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32l412xx.o(.text)
 </UL>
 <P><STRONG><a name="[50]"></a>main</STRONG> (Thumb, 74 bytes, Stack size 0 bytes, main.o(.text.main))
-<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = main &rArr; MSI_ConfigRange
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = main &rArr; PLL_Config
 </UL>
-<BR>[Calls]<UL><LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
-<LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PLL_Config
+<BR>[Calls]<UL><LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemCoreClockUpdate
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PLL_Config
 <LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MSI_ConfigRange
-<LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MSI_Config
+<LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MSI_Config
 </UL>
 <BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__rt_entry_main
 </UL>

@@ -54,6 +54,7 @@ RCC_Status_t MSI_ConfigRange(uint8_t MSIRange){
 	/*APAGAR EL HSI16*/
 	RCC->CR &=~ RCC_CR_HSION;
 	while((RCC->CR & RCC_CR_HSIRDY));
+	SystemCoreClockUpdate();
 	return RCC_OK;
 }
 
@@ -83,7 +84,7 @@ RCC_Status_t PLL_Config(void ){
 	/*3. configurar los parametros del pll (RCC_PLLCFGR)*/
 	//M (1 a 8)
 	RCC->PLLCFGR &=~ RCC_PLLCFGR_PLLM;
-	RCC->PLLCFGR |= RCC_PLLCFGR_PLLM_0;			//PLLM = 2
+	RCC->PLLCFGR |= RCC_PLLCFGR_PLLM_0;			//PLLM = 2 
 	//N (8 a 86)
 	RCC->PLLCFGR &=~ RCC_PLLCFGR_PLLN;
 	RCC->PLLCFGR |= 20U<<8;									//PLLN = 20
@@ -103,6 +104,7 @@ RCC_Status_t PLL_Config(void ){
 	/*8. Seleccionar el reloj habilitado como la fuente del sistema (RCC_CFGR)*/
 	RCC->CFGR |= RCC_CFGR_SW_PLL;
 	while(!(RCC->CFGR & RCC_CFGR_SWS_PLL));
+	SystemCoreClockUpdate();
 	return RCC_OK;
 }
 
