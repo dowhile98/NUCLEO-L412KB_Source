@@ -3,7 +3,7 @@
 uint8_t PB1_Value;
 
 void GPIO_Config(void);
-
+void delay_ms(uint32_t delay);
 
 int  main(void){
 	
@@ -41,6 +41,18 @@ void GPIO_Config(void){
 	GPIOB->OTYPER &=~GPIO_OTYPER_OT3;				//push pull
 	GPIOB->OSPEEDR |= GPIO_OSPEEDR_OSPEED3;	//very high speed
 	GPIOB->PUPDR &=~ GPIO_PUPDR_PUPD3;			//no pull up/down
+}
+
+void delay_ms(uint32_t delay){
+	uint32_t i;
+	SysTick->CTRL  = 0;
+	SysTick->LOAD = SystemCoreClock/1000;
+	SysTick->VAL = 0;
+	SysTick->CTRL |= 1<<2 | 1;
+	for(i =0; i<delay; i++){
+		while(!(SysTick->CTRL & 1<<16));
+	}
+	SysTick->CTRL = 0;
 }
 
 
