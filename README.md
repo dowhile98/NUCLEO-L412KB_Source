@@ -19,14 +19,16 @@
  https://developer.arm.com/tools-and-software/embedded/arm-compiler/arm-compiler-5/downloads
  
  <h2>CLASE 3 - 4 - 6 MATERIALES NECESARIOS </h2>
- - Pulsadores
- - Leds
- - Displays de 7 segmentos Cátodo comun
- - Resistencias de 330, 1k OHM
- - Transitor NPN
+ 1. Pulsadores
+ 2. Leds
+ 3. Displays de 7 segmentos Cátodo comun
+ 4. Resistencias de 330, 1k OHM
+ 5. Transitor NPN
 
 <h3>CIRCUITO </h3>
  ![alt text](https://user-images.githubusercontent.com/47931397/124375187-75704900-dc66-11eb-9afd-b8750da774bd.png)
+ <img src="https://user-images.githubusercontent.com/47931397/124375187-75704900-dc66-11eb-9afd-b8750da774bd.png">
+
 
 <h2>AUTOR</h2>
 - Quino B. Jeffry
