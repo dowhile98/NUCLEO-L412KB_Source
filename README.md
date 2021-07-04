@@ -20,15 +20,13 @@
  
  <h2>CLASE 3 - 4 - 6 MATERIALES NECESARIOS </h2>
  - Pulsadores
- ![image](https://user-images.githubusercontent.com/47931397/124375222-ba947b00-dc66-11eb-9230-1f4b746627da.png)
-- Leds
-![image](https://user-images.githubusercontent.com/47931397/124375237-d4ce5900-dc66-11eb-8d2c-d5a8c6623b88.png)
-- Displays de 7 segmentos Cátodo comun
-![image](https://user-images.githubusercontent.com/47931397/124375268-fdeee980-dc66-11eb-9339-5364a4733ee8.png)
-- Resistencias de 330, 1k OHM
-- Transitor NPN
+ - Leds
+ - Displays de 7 segmentos Cátodo comun
+ - Resistencias de 330, 1k OHM
+ - Transitor NPN
+
 <h3>CIRCUITO </h3>
- ![image](https://user-images.githubusercontent.com/47931397/124375187-75704900-dc66-11eb-9afd-b8750da774bd.png)
+ ![alt text](https://user-images.githubusercontent.com/47931397/124375187-75704900-dc66-11eb-9afd-b8750da774bd.png)
 
 <h2>AUTOR</h2>
 - Quino B. Jeffry
