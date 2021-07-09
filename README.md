@@ -29,7 +29,7 @@
  <img src="https://user-images.githubusercontent.com/47931397/124375187-75704900-dc66-11eb-9afd-b8750da774bd.png">
 
 <h2>4. CLASE 7</h2>
-<h4>CIRCUIOT</h4>
+<h4>CIRCUITO</h4>
  <img src="https://user-images.githubusercontent.com/47931397/125021030-7d056880-e03f-11eb-9870-b9896b35eb87.png">
 
 
