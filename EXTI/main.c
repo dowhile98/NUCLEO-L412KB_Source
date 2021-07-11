@@ -47,9 +47,10 @@ void delay_ms(uint32_t delay);
 /*EXTI1*/
 void EXTI1_Config(void);
 
-
+uint8_t status;
 int main(void){
-	PLL_Config();													//sysclk = 80MHz
+	if(PLL_Config() == RCC_ERROR)		//sysclk = 80MHz
+		//
 	GPIO_Config();
 	EXTI1_Config();
 	
@@ -211,7 +212,6 @@ void EXTI1_Config(void){
 //	NVIC->ISER[EXTI1_IRQn>>5U] |= 1U<<(EXTI1_IRQn & 0x1F);
 	EXTI->PR1 |= EXTI_PR1_PIF1;
 	NVIC_EnableIRQ(EXTI1_IRQn);
-	
 }
 
 
