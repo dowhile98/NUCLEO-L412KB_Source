@@ -9,12 +9,12 @@ char data;
 /*PROTOTIPO DE FUNCIONES*/
 
 int main(void){
-	MSI_ConfigRange(MSI_RANGE9_24MHz);
+	//MSI_ConfigRange(MSI_RANGE9_24MHz);
 	/*seleccionar la fuente de reloj del usart1*/
 //	RCC->CCIPR |= RCC_CCIPR_USART1SEL;
 	fck = SystemCoreClock;
-	USART1_Config(fck,USART_OVER8_8,115200);
-	printf("CONFIGURACION DEL USART1 EXITOSA\n\r");
+	USART1_Config(fck,USART_OVER8_16,115200);
+	printf("CONFIGURACION DEL USART2 EXITOSA\n\r");
 	
 	while(1){
 		
@@ -28,3 +28,4 @@ void  USART1_IRQHandler(void){
 		printf("se recibio->%c\r\n",data);
 	}
 }
+

@@ -20,6 +20,7 @@ static void USART1_Pins_Config(void){
 	GPIOB->AFR[0] |= 0x7U<<28;											//PB7->RX
 }
 
+
 /**
  * @brief ESTABLECE EL VALOR DEL REGISTRO BRR
  * @param USARTx: Insatancia al usart deseado
@@ -80,4 +81,5 @@ char USART1_getc(void){
 	while(!(USART1->ISR & USART_ISR_RXNE));
 	return USART1->RDR;
 }
+
 
