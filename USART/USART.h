@@ -18,7 +18,7 @@
  * @param txRxBaud: La taza de baudios deseada
  * @return nada
  */
-void USART1_Config(uint32_t fck, uint8_t OVER8,uint32_t txRxBaud);
+void USART1_Config(uint32_t fck, uint32_t OVER8,uint32_t txRxBaud);
 
 /**
  * @brief Envia un byte por el usart1

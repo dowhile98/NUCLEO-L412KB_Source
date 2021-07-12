@@ -31,7 +31,7 @@ static void USART1_Pins_Config(void){
 static void setUSARTDIV(USART_TypeDef *USARTx,uint32_t fck, uint32_t txRxBaud){
 	uint16_t temp;
 	if(USARTx->CR1 & USART_CR1_OVER8){ //oversampling 8
-		temp = (2 * fck ) / txRxBaud;
+		temp = (uint16_t)(2 * fck ) / txRxBaud;
 		temp = (temp & 0xFFFFFFF0) | ((temp & 0xF)>>1);
 	}
 	else{
@@ -48,7 +48,7 @@ static void setUSARTDIV(USART_TypeDef *USARTx,uint32_t fck, uint32_t txRxBaud){
  * @param txRxBaud: La taza de baudios deseada
  * @return nada
  */
-void USART1_Config(uint32_t fck, uint8_t OVER8,uint32_t txRxBaud){
+void USART1_Config(uint32_t fck, uint32_t OVER8,uint32_t txRxBaud){
 	/*configuracion de pines*/
 	USART1_Pins_Config();
 	/*enable clock*/

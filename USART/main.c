@@ -13,7 +13,7 @@ int main(void){
 	/*seleccionar la fuente de reloj del usart1*/
 //	RCC->CCIPR |= RCC_CCIPR_USART1SEL;
 	fck = SystemCoreClock;
-	USART1_Config(fck,USART_OVER8_16,115200);
+	USART1_Config(fck,USART_OVER8_8,115200);
 	printf("CONFIGURACION DEL USART1 EXITOSA\n\r");
 	
 	while(1){
