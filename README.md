@@ -32,6 +32,12 @@
 <h4>CIRCUITO</h4>
  <img src="https://user-images.githubusercontent.com/47931397/125021030-7d056880-e03f-11eb-9870-b9896b35eb87.png">
 
+<h2>5. CLASE 10: EJEMPLO 2</h2>
+<img src="https://user-images.githubusercontent.com/47931397/126029874-b370ce7c-350e-427a-9ede-189923b650fd.png">
+<h2>6. CLASE 10: EJEMPLO 3</h2>
+<img src="https://user-images.githubusercontent.com/47931397/126029892-07ef774a-4021-46a3-aa97-f0112d74065d.png">
+
+
 
 <h2>AUTOR</h2>
 - Quino B. Jeffry
