@@ -39,7 +39,7 @@
 
 <h2>6. CLASE 13 </h2>
 La correción del USART2 para el envío de datos por el printf es que en los pines ADC se seleciona tambien el pin PA2, que es el pin
-USART2_TX, se cambia la configuración de función alternativa a modo analógico, para corregir ese error se hace cambia el PA2 al pin PA3, que en este caso 
+USART2_TX, se cambia la configuración de función alternativa a modo analógico, para corregir ese error se cambia el PA2 al pin PA3, que en este caso 
 sería el canal analógico IN8.
 <img src="https://user-images.githubusercontent.com/47931397/126101929-a272fe96-4308-46fc-898e-28bd1c82c9e3.png">
 
