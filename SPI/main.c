@@ -31,7 +31,7 @@ int main(void){
 	
 	//deshabilita EL SPI1
 	//lear
-	SPI1_ReceiveData(dummy_read,3);
+	//SPI1_ReceiveData(dummy_read,3);
 	
 	
 	
