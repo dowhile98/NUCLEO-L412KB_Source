@@ -1,0 +1,11 @@
+--cpu=Cortex-M4.fp.sp --branchpatch=sdcomp-29491-629360
+".\objects\main.o"
+".\objects\lpuart.o"
+".\objects\retarget.o"
+".\objects\rcc.o"
+".\objects\startup_stm32l412xx.o"
+".\objects\system_stm32l4xx.o"
+--strict --scatter ".\Objects\PWR.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\PWR.map" -o .\Objects\PWR.axf

@@ -1,0 +1,66 @@
+T1180 000:013.319   SEGGER J-Link V6.86 Log File
+T1180 000:013.661   DLL Compiled: Sep 24 2020 17:31:31
+T1180 000:013.686   Logging started @ 2021-08-01 21:57
+T1180 000:013.707 - 13.717ms
+T1180 000:013.740 JLINK_SetWarnOutHandler(...)
+T1180 000:013.761 - 0.029ms
+T1180 000:013.781 JLINK_OpenEx(...)
+T1180 000:016.883   Firmware: J-Link STLink V21 compiled Aug 12 2019 10:29:20
+T1180 000:029.414   Hardware: V1.00
+T1180 000:029.494   S/N: 779411113
+T1180 000:029.524   OEM: SEGGER
+T1180 000:029.555   Feature(s): None
+T1180 000:031.326   TELNET listener socket opened on port 19021
+T1180 000:031.994   WEBSRV Starting webserver
+T1180 000:032.598   WEBSRV Webserver running on local port 19080
+T1180 000:032.658 - 18.889ms returns "O.K."
+T1180 000:032.719 JLINK_GetEmuCaps()
+T1180 000:032.752 - 0.044ms returns 0x98EA5A33
+T1180 000:032.789 JLINK_TIF_GetAvailable(...)
+T1180 000:033.145 - 0.383ms
+T1180 000:033.196 JLINK_SetErrorOutHandler(...)
+T1180 000:033.220 - 0.034ms
+T1180 000:033.277 JLINK_ExecCommand("ProjectFile = "D:\TRABAJO\UMAKER\CURSOS\ARM - NUCLEO-L412KB\NUCLEO-L412KB_Source\PWR\JLinkSettings.ini"", ...). 
+T1180 000:053.809   Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T1180 000:054.150   Looking for J-Link GUI Server exe at: C:\Program Files (x86)\SEGGER\JLink\JLinkGUIServer.exe
+T1180 000:054.292   Forking J-Link GUI Server: C:\Program Files (x86)\SEGGER\JLink\JLinkGUIServer.exe
+T1180 000:168.425   J-Link GUI Server info: "J-Link GUI server V6.84a "
+T1180 002:390.218   The connected J-Link (S/N 779411113) has been designed to work with devices made by ST only.
+Debugging the selected device ADuCM355 is not supported by this J-Link.
+
+To program and debug the target device, please consider purchasing a full J-Link.
+More information: https://www.segger.com/jlink-debug-probes.html
+T1180 002:434.831   Device "ADUCM355" selected.
+T1180 002:436.530 - 2403.304ms returns 0x00
+T1180 002:442.741 JLINK_ExecCommand("Device = STM32L412KBUx", ...). 
+T1180 002:449.663   Device "ADUCM355" selected.
+T1180 002:451.094 - 8.333ms returns 0x00
+T1180 002:451.176 JLINK_GetHardwareVersion()
+T1180 002:451.201 - 0.035ms returns 10000
+T1180 002:451.242 JLINK_GetDLLVersion()
+T1180 002:451.263 - 0.032ms returns 68600
+T1180 002:451.289 JLINK_GetOEMString(...)
+T1180 002:451.327 JLINK_GetFirmwareString(...)
+T1180 002:451.355 - 0.040ms
+T1180 002:470.391 JLINK_GetDLLVersion()
+T1180 002:470.458 - 0.077ms returns 68600
+T1180 002:470.483 JLINK_GetCompileDateTime()
+T1180 002:470.502 - 0.029ms
+T1180 002:492.627 JLINK_GetFirmwareString(...)
+T1180 002:492.695 - 0.081ms
+T1180 002:505.452 JLINK_GetHardwareVersion()
+T1180 002:505.512 - 0.070ms returns 10000
+T1180 002:510.436 JLINK_GetSN()
+T1180 002:510.496 - 0.070ms returns 779411113
+T1180 002:518.556 JLINK_GetOEMString(...)
+T1180 002:527.222 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T1180 002:528.475 - 1.604ms returns 0x00
+T1180 002:528.869 JLINK_HasError()
+T1180 002:528.944 JLINK_SetSpeed(5000)
+T1180 002:529.228 - 0.304ms
+T1180 002:529.276 JLINK_GetId()
+T1180 002:590.686 - 61.524ms returns 0x00000000
+T1180 004:067.029 JLINK_Close()
+T1180 004:080.538 - 13.589ms
+T1180 004:080.637   
+T1180 004:080.663   Closed
