@@ -12,7 +12,7 @@ void BUTTON_Init(void);
 int main(void){
 	uint8_t dummy_write = 0xff;
 	uint8_t dummy_read[4];
-	char txt[] = "Hola mundo SPI1";
+	uint8_t txt[] = "Hola mundo SPI1";
 	uint8_t size;
 	/*rcc config*/
 	PLL_Config();
@@ -42,10 +42,10 @@ int main(void){
 		delay_ms(200);
 		SPI1_Enable();
 		//ENVIAR LA CANTIDAD 
-		size = strlen(txt);
+		size = strlen((char*)txt);
 		SPI1_sendData(&size,1);
 		//enviamdo el dato
-		SPI1_sendData((uint8_t*)txt,strlen(txt));
+		SPI1_sendData(txt,size);
 		//deshabilitar el spi
 		SPI1_Disable();
 	}

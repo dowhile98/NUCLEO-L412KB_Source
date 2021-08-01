@@ -108,9 +108,10 @@ void SPI1_sendData(uint8_t *pTxBuffer, uint32_t Len){
 			SPI1->DR =   *((uint16_t*)pTxBuffer);
 			Len--;
 			Len--;
-			(uint16_t*)pTxBuffer++;
+			pTxBuffer++;
+			pTxBuffer++;
 		}else{
-			SPI1->DR =   *pTxBuffer;
+			*((__IO uint8_t*)&SPI1->DR) =   *pTxBuffer;  
 			Len--;
 			pTxBuffer++;
 		}
@@ -135,10 +136,11 @@ void SPI1_ReceiveData(uint8_t *pRxBuffer, uint32_t Len){
 			*((uint16_t*)pRxBuffer) = SPI1->DR ;
 			Len--;
 			Len--;
-			(uint16_t*)pRxBuffer++;
+			pRxBuffer++;
+			pRxBuffer++;
 		}
 		else{
-			*(pRxBuffer) = SPI1->DR ;
+			*(pRxBuffer) = *((__IO uint8_t*)&SPI1->DR) ;
 			Len--;
 			pRxBuffer++;
 		}
