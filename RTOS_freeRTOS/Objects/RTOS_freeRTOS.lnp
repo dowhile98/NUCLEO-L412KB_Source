@@ -1,0 +1,20 @@
+--cpu=Cortex-M4.fp.sp --branchpatch=sdcomp-29491-629360
+".\objects\main.o"
+".\objects\usart.o"
+".\objects\retarget.o"
+".\objects\delay.o"
+".\objects\heap_4.o"
+".\objects\port.o"
+".\objects\croutine.o"
+".\objects\event_groups.o"
+".\objects\list.o"
+".\objects\queue.o"
+".\objects\stream_buffer.o"
+".\objects\tasks.o"
+".\objects\timers.o"
+".\objects\startup_stm32l412xx.o"
+".\objects\system_stm32l4xx.o"
+--strict --scatter ".\Objects\RTOS_freeRTOS.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\RTOS_freeRTOS.map" -o .\Objects\RTOS_freeRTOS.axf

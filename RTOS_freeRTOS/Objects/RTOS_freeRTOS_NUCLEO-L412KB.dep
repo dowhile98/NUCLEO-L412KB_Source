@@ -1,0 +1,266 @@
+Dependencies for Project 'RTOS_freeRTOS', Target 'NUCLEO-L412KB': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\main.c)(0x6107422A)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\MiddleWare\ThirdParty\FreeRTOS\include -I .\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\RTOS_freeRTOS-I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32L412xx -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l412xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F87F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83BD92)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F737AB0)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x608B43E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8EF392)
+I (..\RTOS_freeRTOS\FreeRTOSConfig.h)(0x610741D2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\projdefs.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\portable.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\task.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\list.h)(0x608B43E2)
+I (USART.h)(0x61073CBE)
+I (Delay.h)(0x61073CCF)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8EF392)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\semphr.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\queue.h)(0x608B43E2)
+F (.\USART.c)(0x61073E48)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\MiddleWare\ThirdParty\FreeRTOS\include -I .\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\RTOS_freeRTOS-I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32L412xx -D_RTE_-o .\objects\usart.o --omf_browse .\objects\usart.crf --depend .\objects\usart.d)
+I (USART.h)(0x61073CBE)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l412xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F87F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83BD92)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F737AB0)
+F (.\retarget.c)(0x61073CBE)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\MiddleWare\ThirdParty\FreeRTOS\include -I .\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\RTOS_freeRTOS-I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32L412xx -D_RTE_-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+F (.\Delay.c)(0x61073CD3)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\MiddleWare\ThirdParty\FreeRTOS\include -I .\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\RTOS_freeRTOS-I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32L412xx -D_RTE_-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (Delay.h)(0x61073CCF)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l412xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F87F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83BD92)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F737AB0)
+F (.\FreeRTOSConfig.h)(0x610741D2)()
+F (.\USART.h)(0x61073CBE)()
+F (.\Delay.h)(0x61073CCF)()
+F (.\MiddleWare\ThirdParty\FreeRTOS\portable\MemMang\heap_4.c)(0x608B43E2)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\MiddleWare\ThirdParty\FreeRTOS\include -I .\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\RTOS_freeRTOS-I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32L412xx -D_RTE_-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8EF392)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x608B43E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (..\RTOS_freeRTOS\FreeRTOSConfig.h)(0x610741D2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l412xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83BD92)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F737AB0)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\projdefs.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\portable.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\task.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\list.h)(0x608B43E2)
+F (.\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F\port.c)(0x608B43E2)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\MiddleWare\ThirdParty\FreeRTOS\include -I .\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\RTOS_freeRTOS-I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32L412xx -D_RTE_-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x608B43E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (..\RTOS_freeRTOS\FreeRTOSConfig.h)(0x610741D2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l412xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83BD92)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F737AB0)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\projdefs.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\portable.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\task.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\list.h)(0x608B43E2)
+F (.\MiddleWare\ThirdParty\FreeRTOS\croutine.c)(0x608B43E2)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\MiddleWare\ThirdParty\FreeRTOS\include -I .\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\RTOS_freeRTOS-I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32L412xx -D_RTE_-o .\objects\croutine.o --omf_browse .\objects\croutine.crf --depend .\objects\croutine.d)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x608B43E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (..\RTOS_freeRTOS\FreeRTOSConfig.h)(0x610741D2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l412xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83BD92)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F737AB0)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\projdefs.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\portable.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\task.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\list.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\croutine.h)(0x608B43E2)
+F (.\MiddleWare\ThirdParty\FreeRTOS\event_groups.c)(0x608B43E2)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\MiddleWare\ThirdParty\FreeRTOS\include -I .\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\RTOS_freeRTOS-I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32L412xx -D_RTE_-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8EF392)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x608B43E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (..\RTOS_freeRTOS\FreeRTOSConfig.h)(0x610741D2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l412xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83BD92)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F737AB0)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\projdefs.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\portable.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\task.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\list.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\timers.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\event_groups.h)(0x608B43E2)
+F (.\MiddleWare\ThirdParty\FreeRTOS\list.c)(0x608B43E2)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\MiddleWare\ThirdParty\FreeRTOS\include -I .\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\RTOS_freeRTOS-I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32L412xx -D_RTE_-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8EF392)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x608B43E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (..\RTOS_freeRTOS\FreeRTOSConfig.h)(0x610741D2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l412xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83BD92)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F737AB0)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\projdefs.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\portable.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\list.h)(0x608B43E2)
+F (.\MiddleWare\ThirdParty\FreeRTOS\queue.c)(0x608B43E2)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\MiddleWare\ThirdParty\FreeRTOS\include -I .\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\RTOS_freeRTOS-I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32L412xx -D_RTE_-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8EF392)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x608B43E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (..\RTOS_freeRTOS\FreeRTOSConfig.h)(0x610741D2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l412xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83BD92)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F737AB0)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\projdefs.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\portable.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\task.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\list.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\queue.h)(0x608B43E2)
+F (.\MiddleWare\ThirdParty\FreeRTOS\stream_buffer.c)(0x608B43E2)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\MiddleWare\ThirdParty\FreeRTOS\include -I .\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\RTOS_freeRTOS-I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32L412xx -D_RTE_-o .\objects\stream_buffer.o --omf_browse .\objects\stream_buffer.crf --depend .\objects\stream_buffer.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8EF392)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x608B43E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8EF392)
+I (..\RTOS_freeRTOS\FreeRTOSConfig.h)(0x610741D2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l412xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83BD92)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F737AB0)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\projdefs.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\portable.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\task.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\list.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\stream_buffer.h)(0x608B43E2)
+F (.\MiddleWare\ThirdParty\FreeRTOS\tasks.c)(0x608B43E2)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\MiddleWare\ThirdParty\FreeRTOS\include -I .\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\RTOS_freeRTOS-I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32L412xx -D_RTE_-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8EF392)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x608B43E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (..\RTOS_freeRTOS\FreeRTOSConfig.h)(0x610741D2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l412xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83BD92)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F737AB0)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\projdefs.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\portable.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\task.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\list.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\timers.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\stack_macros.h)(0x608B43E2)
+F (.\MiddleWare\ThirdParty\FreeRTOS\timers.c)(0x608B43E2)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\MiddleWare\ThirdParty\FreeRTOS\include -I .\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\RTOS_freeRTOS-I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32L412xx -D_RTE_-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8EF392)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\FreeRTOS.h)(0x608B43E2)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8EF392)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (..\RTOS_freeRTOS\FreeRTOSConfig.h)(0x610741D2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l412xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83BD92)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F737AB0)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\projdefs.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\portable.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\deprecated_definitions.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\mpu_wrappers.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\task.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\list.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\queue.h)(0x608B43E2)
+I (.\MiddleWare\ThirdParty\FreeRTOS\include\timers.h)(0x608B43E2)
+F (RTE\Device\STM32L412KBUx\startup_stm32l412xx.s)(0x5F737AB0)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 534" --pd "_RTE_ SETA 1" --pd "STM32L412xx SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32l412xx.lst --xref -o .\objects\startup_stm32l412xx.o --depend .\objects\startup_stm32l412xx.d)
+F (RTE\Device\STM32L412KBUx\system_stm32l4xx.c)(0x5F737AB0)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I .\MiddleWare\ThirdParty\FreeRTOS\include -I .\MiddleWare\ThirdParty\FreeRTOS\portable\RVDS\ARM_CM4F -I ..\RTOS_freeRTOS-I.\RTE\_NUCLEO-L412KB-IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include-D__UVISION_VERSION="534" -D_RTE_ -DSTM32L412xx -D_RTE_-o .\objects\system_stm32l4xx.o --omf_browse .\objects\system_stm32l4xx.crf --depend .\objects\system_stm32l4xx.d)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l4xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\stm32l412xx.h)(0x5F737AB0)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F87F2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8EF392)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83BD92)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F87F2)
+I (C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x5F737AB0)

@@ -1,0 +1,10 @@
+--cpu=Cortex-M4.fp.sp --branchpatch=sdcomp-29491-629360
+".\objects\main.o"
+"C:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4.lib"
+".\objects\rtx_conf_cm.o"
+".\objects\startup_stm32l412xx.o"
+".\objects\system_stm32l4xx.o"
+--strict --scatter ".\Objects\CMSIS-OS.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\CMSIS-OS.map" -o .\Objects\CMSIS-OS.axf
