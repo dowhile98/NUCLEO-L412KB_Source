@@ -1,0 +1,12 @@
+--cpu=Cortex-M4.fp.sp --branchpatch=sdcomp-29491-629360
+".\objects\main.o"
+".\objects\i2c.o"
+".\objects\delay.o"
+".\objects\rcc.o"
+".\objects\mpu6050.o"
+".\objects\startup_stm32l412xx.o"
+".\objects\system_stm32l4xx.o"
+--strict --scatter ".\Objects\I2C.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\I2C.map" -o .\Objects\I2C.axf
