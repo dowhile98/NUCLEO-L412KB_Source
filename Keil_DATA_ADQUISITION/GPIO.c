@@ -1,0 +1,33 @@
+#include "GPIO.h"
+
+
+void GPIO_Init(void){
+	/*enable clock*/
+	RCC->AHB2ENR |= RCC_AHB2ENR_GPIOBEN;
+	RCC->AHB2ENR |= RCC_AHB2ENR_GPIOAEN;
+	/*configuracion del D4, D5 como salida*/
+	GPIOB->MODER &=~ (0x3U<<2*D4 | 0x3U<<2*D5);
+	GPIOB->MODER |= 0x1U<<2*D4 	| 0x1U<<2*D5;			//OUTPUT PP
+	GPIOB->OSPEEDR |= 0x1U<<2*D4 	| 0x1U<<2*D5;		//MEDIUM SPEED
+	
+	/*CONFIGUARACION PB3 COMO SALIDA(D13)*/
+	GPIOB->MODER &=~GPIO_MODER_MODE3;
+	GPIOB->MODER |= GPIO_MODER_MODE3_0;
+	/*configuracion del A1,A3-> INTERRUPCION EXTERNA*/
+	GPIOA->MODER &=~(0x3U<<2*A1 | 0x3U<<2*A3);   	//input mode
+	GPIOA->PUPDR &=~(0x3U<<2*A1 | 0x3U<<2*A3); 
+	
+	EXTI->IMR1 &=~(0x1U<<A1 | 0x1U<<A3);
+	EXTI->IMR1 |= (0x1U<<A1 | 0x1U<<A3);
+	EXTI->RTSR1 |= (0x1U<<A1 | 0x1U<<A3);
+	EXTI->PR1 |= (0x1U<<A1 | 0x1U<<A3);
+	
+	SYSCFG->EXTICR[0] &=~ SYSCFG_EXTICR1_EXTI1;		//PA1
+	SYSCFG->EXTICR[1] &=~ SYSCFG_EXTICR2_EXTI4;		//PA4
+
+	NVIC_SetPriority(EXTI4_IRQn,4);
+	NVIC_SetPriority(EXTI1_IRQn,1);
+	NVIC_EnableIRQ(EXTI1_IRQn);
+	NVIC_EnableIRQ(EXTI4_IRQn);
+	
+}

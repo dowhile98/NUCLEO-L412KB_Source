@@ -1,0 +1,11 @@
+-ID:/TRABAJO/UMAKER/TALLERES/CONTROL\ PID\ -\ MOTOR\ DC/CODIGO/Keil_DATA_ADQUISITION
+-ID:/TRABAJO/UMAKER/TALLERES/CONTROL\ PID\ -\ MOTOR\ DC/CODIGO/Keil_DATA_ADQUISITION/slprj/raccel/MRAC_Continuo
+-IC:/Program\ Files/Polyspace/R2020a/rtw/c/src/rapid
+-IC:/Program\ Files/Polyspace/R2020a/rtw/c/raccel
+-IC:/Program\ Files/Polyspace/R2020a/rtw/c/src/ext_mode/common
+-IC:/Program\ Files/Polyspace/R2020a/toolbox/coder/rtiostream/src
+-IC:/Program\ Files/Polyspace/R2020a/extern/include
+-IC:/Program\ Files/Polyspace/R2020a/simulink/include
+-IC:/Program\ Files/Polyspace/R2020a/rtw/c/src
+-IC:/Program\ Files/Polyspace/R2020a/toolbox/coder/rtiostream/src/rtiostreamtcpip
+-IC:/Program\ Files/Polyspace/R2020a/toolbox/coder/rtiostream/src/utils
