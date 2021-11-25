@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp --branchpatch=sdcomp-29491-629360
+".\objects\delay.o"
+".\objects\usart.o"
+".\objects\rcc.o"
+".\objects\retarget.o"
+".\objects\main.o"
+".\objects\basicmathfunctions.o"
+".\objects\bayesfunctions.o"
+".\objects\commontables.o"
+".\objects\complexmathfunctions.o"
+".\objects\controllerfunctions.o"
+".\objects\distancefunctions.o"
+".\objects\fastmathfunctions.o"
+".\objects\filteringfunctions.o"
+".\objects\matrixfunctions.o"
+".\objects\svmfunctions.o"
+".\objects\statisticsfunctions.o"
+".\objects\supportfunctions.o"
+".\objects\transformfunctions.o"
+".\objects\startup_stm32l412xx.o"
+".\objects\system_stm32l4xx.o"
+--strict --scatter ".\Objects\DSP.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\DSP.map" -o .\Objects\DSP.axf
